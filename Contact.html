@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container m-0">
+            <div class="row m-0 p-1">
+                <div class="col-sm-6 p-1">
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 float-left">
+                    <hr>
+                </div>
+            </div>
+            <form method="POST" action="mailto:test@example.com?subject=Questions" enctype="text/plain">
+                <div class="form-group">
+                    <h2>Name</h2>
+                    <input type="text" name="Name">
+                </div>
+                <div class="form-group">
+                    <h2>E-mail</h2>
+                    <input type="text" name="Email">
+                </div>
+                <div class="form-group">
+                    <h2>Message</h2>
+                    <textarea name="body" rows="10">
+                    </textarea>  
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>                   
+            </form>   
+        </div>
+    </body>
+</html>
